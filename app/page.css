@@ -2,14 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .card {
   background-color: #D3BBDD;
-  width: 40%;
+  width:100%;
   padding: 40px;
   border-radius: 10px;
   text-align: center;
+}
+
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .card {
+    width: 40%;
+  }
 }
 
 .button {

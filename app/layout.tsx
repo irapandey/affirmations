@@ -28,7 +28,7 @@ export default function RootLayout({
 {/* @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap'); */}
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 </style></head>
-      <body className="body">
+      <body>
         {children}
       </body>
     </html>
