@@ -76,13 +76,15 @@ export default function Page() {
     fetchAffirmation();
   }, []);
 
+  const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+
   return (
     <div
       className="main-container"
     >
       <Snowfall 
       color="#F8C0C8"
-      snowflakeCount={500}/>
+      snowflakeCount={isMobile ? 200 : 400}/>
       <Butterflies butterflies={butterflies} onRemove={removeButterfly} />
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
