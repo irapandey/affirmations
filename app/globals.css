@@ -4,4 +4,8 @@ body{
   font-family: "Indie Flower", cursive;
   font-weight: 400;
   /* font-style: normal; */
+  background-color: #ECE3F0;
+  height: 100vh;
+  align-content: center;
+  display: flex;
 }

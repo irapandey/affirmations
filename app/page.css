@@ -2,13 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #ECE3F0;
 }
 
 .card {
   background-color: #D3BBDD;
-  width: 40rem;
+  width: 40%;
   padding: 40px;
   border-radius: 10px;
   text-align: center;
@@ -20,14 +18,14 @@
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 
   &:hover{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 }
 
 
 .affirmation{
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
