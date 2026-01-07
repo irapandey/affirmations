@@ -1,0 +1,33 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ECE3F0;
+}
+
+.card {
+  background-color: #D3BBDD;
+  width: 40rem;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.button {
+  background-color: #ECE3F0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+
+  &:hover{
+    font-size: 1.6rem;
+  }
+}
+
+
+.affirmation{
+    font-size: 3.5rem;
+}
